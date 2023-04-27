@@ -1,7 +1,6 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow
 import pyqtgraph as pg
-from pyqtgraph.Qt import QtCore
 
 
 class MainWindow(QMainWindow):
@@ -22,12 +21,7 @@ class MainWindow(QMainWindow):
 
 
 if __name__ == '__main__':
-    # Создание приложения и главного окна
     app = QApplication(sys.argv)
     window = MainWindow()
-
-    # Отображение главного окна
     window.show()
-
-    # Запуск главного цикла приложения
     sys.exit(app.exec_())

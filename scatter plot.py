@@ -22,12 +22,7 @@ class MainWindow(QMainWindow):
 
 
 if __name__ == '__main__':
-    # Создание приложения и главного окна
     app = QApplication(sys.argv)
     window = MainWindow()
-
-    # Отображение главного окна
     window.show()
-
-    # Запуск главного цикла приложения
     sys.exit(app.exec_())
