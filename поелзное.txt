@@ -1,0 +1,20 @@
+qt5-tools designer
+открывает дизайнер
+-----------------------
+pyuic5 path/to/untitled1.ui -o output/path/to/untitled1.py
+конвертирует из .ui в .py
+
+---------------------------------------------------------------------------
+
+https://github.com/pyqtgraph/pyqtgraph/tree/master/pyqtgraph/examples
+куча примеров графиков
+-------------------------------------------------
+
+https://www.pythonguis.com/tutorials/plotting-pyqtgraph/
+небольшой туториал
+-------------------------------------------------
+
+https://pyqtgraph.readthedocs.io/en/latest/api_reference/graphicsItems/plotitem.html
+доки pyqtgraph
+--------------------------------------------------------------------------------------------------
+
